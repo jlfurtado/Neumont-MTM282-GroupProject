@@ -1,0 +1,6 @@
+{
+  "menu": [
+    ["Home", "/"],
+    ["Something", "http://www.google.com/"]
+  ]
+}
