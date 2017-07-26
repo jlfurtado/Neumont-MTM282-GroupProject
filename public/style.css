@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Artifika|Lato');
+
 body
 {
-    color: #99FF00;
-    background-color: #bb2222;
+    font-family: 'Lato', serif;
+}
+
+#menu {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+    background: #b1e514;
+    padding: 8px;
+}
+
+a {
+    color: #0fb9db;
+    border-bottom: 2px solid rgba(0,0,0,0);
+    transition: border-color 0.8s, color 0.2s;
+    text-decoration: none;
+}
+
+a:active {
+    color: #0fb9db;
+    border-bottom: 2px solid rgba(0,0,0,0);
+    transition: border-color 0.8s;
+}
+
+a:visited {
+    color: #0fb9db;
+    border-bottom: 2px solid rgba(0,0,0,0);
+    transition: border-color 0.8s;
+}
+
+a:hover {
+    color: #339db2;
+    /*text-decoration: underline;*/
+    border-bottom: 2px solid #339db2;
+    transition: border-color 1s, color 0.8s;
 }
