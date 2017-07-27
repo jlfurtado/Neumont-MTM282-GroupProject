@@ -10,8 +10,8 @@ html
         for item in config.nav
           li
             a(href=item[1]) #{item[0]}
-    - var v = Math.floor(Math.random() * config.menu.length);
-    h2=config.menu[v]
+    - var v = Math.floor(Math.random() * config.quotes.length);
+    h2(id="quote")=config.quotes[v]
     div(id='content')
       block content
     footer

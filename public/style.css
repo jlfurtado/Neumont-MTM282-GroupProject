@@ -5,11 +5,15 @@ body
     font-family: 'Lato', serif;
 }
 
+header {
+    margin: auto;
+    text-align: center;
+}
+
 #nav {
     list-style-type: none;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
+    margin: auto;
 }
 
 #nav li {
