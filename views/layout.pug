@@ -5,12 +5,13 @@ html
   body
     header
       h1
-        a(href="./") name of website
-      ul(id="menu")
-        for item in config.menu
+        a(href="./") ^3
+      ul(id="nav")
+        for item in config.nav
           li
             a(href=item[1]) #{item[0]}
-              
+    - var v = Math.floor(Math.random() * config.menu.length);
+    h2=config.menu[v]
     div(id='content')
       block content
     footer

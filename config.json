@@ -1,6 +1,18 @@
 {
-  "menu": [
+  "nav": [
     ["Home", "/"],
     ["Locations", "/directions"]
+  ],
+  "menu": [
+    "Bad Buns on Puns™",
+    "The Cheesiest Burger Puns in Town™",
+    "Burger of Much Pun™",
+    "Don't be Chicken, Try the (Some Burger With Chicken in it Here)™",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit™",
+    "Thanks to Our Low Satisfaction Rates, Our Buns are Toasted on a Daily Basis™",
+    "Are You a Pig? Go Gannibal and Try Our Bacon Burger! Oink Oink!™",
+    "Try Our New Breakfast Burgers, They're Eggcelent!™",
+    "Tired of Lying Fast Food Places? Try Our New Horse Meat Burger! 0% Beef, 0% Lies!™",
+    "水果人"
   ]
 }
