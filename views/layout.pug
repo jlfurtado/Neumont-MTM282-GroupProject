@@ -6,10 +6,11 @@ html
     header
       h1
         a(href="./") ^3
-      ul(id="nav")
-        for item in config.nav
-          li
-            a(href=item[1]) #{item[0]}
+      nav
+        ul
+          for item in config.nav
+            li
+              a(href=item[1]) #{item[0]}
     - var v = Math.floor(Math.random() * config.quotes.length);
     h2(id="quote")=config.quotes[v]
     div(id='content')
