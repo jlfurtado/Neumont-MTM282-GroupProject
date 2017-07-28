@@ -17,5 +17,35 @@
     "Try Our New Breakfast Burgers, They're Eggcelent!™",
     "Tired of Lying Fast Food Places? Try Our New Horse Meat Burger! 0% Beef, 0% Lies!™",
     "水果人"
-  ]
+  ],
+  "menu":{
+      "Breakfast" : [
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"]
+      ],
+    "Lunch" : [
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"]
+      ],
+      "Dinner" : [
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"]
+      ],
+      "Dessert": [
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"],
+        ["Name", "Path", "Description"]
+      ]
+  }
 }
