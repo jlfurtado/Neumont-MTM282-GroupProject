@@ -1,7 +1,10 @@
 {
   "nav": [
     ["Home", "/"],
-    ["Locations", "/directions"]
+    ["Locations", "/directions"],
+    ["Breakfast", "/breakfast"],
+    ["Lunch", "/lunch"],
+    ["Dinner", "/dinner"]
   ],
   "quotes": [
     "Bad Buns on Puns™",
