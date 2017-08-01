@@ -6,7 +6,7 @@ html
     header
       h1
         a(href="./") ^3
-      nav
+      nav(id="header-nav")
         ul
           for item in config.nav
             li
@@ -16,3 +16,9 @@ html
     div(id='content')
       block content
     footer
+      span localhost:3000 ©2017 Us
+      nav(id="footer-nav")
+        ul
+          for item in config.nav
+              li
+                a(href=item[1]) #{item[0]}

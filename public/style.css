@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Artifika|Lato');
+@import url('https://fonts.googleapis.com/css?family=Artifika|Lato|Dancing+Script|Architects+Daughter');
 
 @keyframes comeIn {
     0% {
@@ -22,29 +22,46 @@ header {
     width: 100%;
 }
 
-nav {
+nav#header-nav {
     width: 100%;
     margin: auto;
     background-color: #b1e514;
+    text-align: center;
 }
 
-nav > ul {
+nav#header-nav > ul {
     list-style-type: none;
     overflow: hidden;
     margin: auto;
 }
 
-nav > ul > li {
+nav#header-nav > ul > li {
     float: left;
     background: #b1e514;
     padding: 8px;
 }
 
+nav#header-nav > ul > li:hover {
+    background: #bbed17;
+}
+
+nav#header-nav > ul > li > a {
+    border-bottom: none;
+}
+
+nav#header-nav > ul > li > a:hover {
+    border-bottom: none;
+}
+
 #quote {
     position: relative;
-    font-family: cursive;
+    /*font-family: 'Architects Daughter', cursive;*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4em;
     animation: comeIn 1.8s;
     text-align: center;
+    cursor: default;
+    user-select: none;
 }
 
 a {
