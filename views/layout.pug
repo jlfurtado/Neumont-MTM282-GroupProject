@@ -7,18 +7,24 @@ html
       h1
         a(href="./") ^3
       nav(id="header-nav")
-        ul
-          for item in config.nav
-            li
-              a(href=item[1]) #{item[0]}
-    - var v = Math.floor(Math.random() * config.quotes.length);
-    h2(id="quote")=config.quotes[v]
-    div(id='content')
-      block content
+        div(class="nav-container")
+          ul
+            for item in config.nav
+              a(href=item[1])
+                li #{item[0]}
+    section(id="body")
+      - var v = Math.floor(Math.random() * config.quotes.length);
+      h2(id="quote")=config.quotes[v]
+      div(id='content')
+        block content
     footer
-      span localhost:3000 ©2017 Us
-      nav(id="footer-nav")
-        ul
-          for item in config.nav
-              li
-                a(href=item[1]) #{item[0]}
+      div(id="footer-left")
+        h4 localhost:30000 is a restaurant dedicated to serving the best.
+        span localhost:3000 ©2017 Us
+      div(id="footer-right")
+
+        nav(id="footer-nav")
+          ul
+            for item in config.nav
+                li
+                  a(href=item[1]) #{item[0]}

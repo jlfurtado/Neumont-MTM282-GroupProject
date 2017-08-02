@@ -1,10 +1,10 @@
 {
   "nav": [
     ["Home", "/"],
-    ["Locations", "/directions"],
     ["Breakfast", "/breakfast"],
     ["Lunch", "/lunch"],
     ["Dinner", "/dinner"],
+    ["Locations", "/directions"],
     ["About Us", "/about-us"]
   ],
   "quotes": [
