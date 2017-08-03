@@ -4,7 +4,7 @@ html
     link(href='style.css', rel='stylesheet')
   body
     header
-      h1
+      span(id="website-name")
         a(href="./") ^3
       nav(id="header-nav")
         div(class="nav-container")
@@ -12,9 +12,10 @@ html
             for item in config.nav
               a(href=item[1])
                 li #{item[0]}
-    section(id="body")
+    article(id="body")
       - var v = Math.floor(Math.random() * config.quotes.length);
       h2(id="quote")=config.quotes[v]
+        sup TM
       div(id='content')
         block content
     footer
