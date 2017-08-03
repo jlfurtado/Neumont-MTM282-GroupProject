@@ -19,9 +19,25 @@ body
 
 #website-name {
     font-size: 2em;
+    font-weight: 600;
+}
+
+#website-name a {
+    color: #bf7200;
+    border: none;
+}
+
+#website-name a:visited {
+    color: #bf7200;
+    border: none;
+}
+
+#website-name a:hover {
+    border: none;
 }
 
 header {
+    padding-top: 16pt;
     margin: auto;
     text-align: center;
     width: 100%;
@@ -87,6 +103,10 @@ nav#header-nav ul a:hover {
     user-select: none;
 }
 
+.menu-item {
+
+}
+
 a {
     color: #0fb9db;
     border-bottom: 2px solid rgba(0,0,0,0);
@@ -114,7 +134,6 @@ a:hover {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
     padding: 20pt;
     margin: auto;
