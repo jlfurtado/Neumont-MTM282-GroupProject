@@ -22,7 +22,7 @@
   ],
   "menu":{
       "Breakfast" : [
-        ["BreakfastItem1", "../", "b"],
+        ["BreakfastItem1", "../", "basdf"],
         ["Name", "../", "Description"],
         ["Name", "../", "Description"],
         ["Name", "../", "Description"],
