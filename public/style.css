@@ -31,7 +31,7 @@ body
 }
 
 #website-name {
-    font-size: 3em;
+    font-size: 40pt;
     font-weight: 600;
 }
 
@@ -85,7 +85,7 @@ nav#header-nav ul li {
     display: inline;
     background: #b1e514;
     padding: 12px;
-    font-size: 2em;
+    font-size: 15pt;
 }
 
 nav#header-nav ul li:hover {
@@ -118,30 +118,50 @@ nav#header-nav ul a:hover {
 
 .menu {
     list-style-type: none;
-    display: block;
 }
 
 .menu a {
     margin: auto;
+
 }
 
 .menu li {
     padding: 20px;
+    min-width: 100px;
     background-color: #f6f6f6;
     border: 2px solid #c8c8c8;
     border-radius: 3px;
     margin: 5px;
     text-align: center;
-
+    transition: background-color 0.5s;
 }
+
+.menu li:hover {
+    background-color: #d3d3d3;
+    transition: background-color 0.7s;
+}
+
 .menu-item {
+    padding: 10px;
     text-align: center;
     display: block;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #5e5e5e;
+    width: 100%;
+}
+
+.menu-img {
+    width: 100pt;
+    height: 100pt;
+    display: block;
+    margin: 0 auto;
 }
 
 .menu-desc {
     text-align: center;
-    display: block;
+    font-size: 1.4em;
+    color: #808080;
 }
 
 a {

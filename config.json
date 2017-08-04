@@ -22,32 +22,32 @@
   ],
   "menu":{
       "Breakfast" : [
-        ["BreakfastItem1", "../", "basdf"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"]
+        ["BreakfastItem1", "basdf", "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Triangle-Black-Baseball-Strapback-Hat-_266664-front.jpg"],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""]
       ],
     "Lunch" : [
-        ["LunchItem1", "../", "l"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"]
+        ["LunchItem1", "l", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""]
       ],
       "Dinner" : [
-        ["DinnerItem1", "../", "D1"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"]
+        ["DinnerItem1", "D1", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""]
       ],
       "Dessert": [
-        ["DessertItem1", "../", "D2"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"],
-        ["Name", "../", "Description"]
+        ["DessertItem1", "D2", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""],
+        ["Name", "Description", ""]
       ]
   }
 }

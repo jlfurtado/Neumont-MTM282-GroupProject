@@ -5,7 +5,8 @@ block content
   p ONE THIRD OF THE MENU ITEMS
   ul(class='menu')
     for item in config.menu.Breakfast
-      a(href=item[1])
+      a(class=-'menu-option' href='#')
         li
           span(class='menu-item') #{item[0]}
-          span(class='menu-desc') #{item[2]}
+          img(src=item[2] class='menu-img')
+          span(class='menu-desc') #{item[1]}
