@@ -8,9 +8,9 @@
     ["About Us", "/about-us"]
   ],
   "quotes": [
-    "Bad Buns on Puns™",
-    "The Cheesiest Burger Puns in Town™",
-    "Burger of Much Pun™",
+    "Bad Buns on Puns",
+    "The Cheesiest Burger Puns in Town",
+    "Burger of Much Pun",
     "Don't be Chicken, Try the (Some Burger With Chicken in it Here)",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     "Thanks to Our Low Satisfaction Rates, Our Buns are Toasted on a Daily Basis",
@@ -22,32 +22,32 @@
   ],
   "menu":{
       "Breakfast" : [
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"]
+        ["BreakfastItem1", "../", "b"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"]
       ],
     "Lunch" : [
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"]
+        ["LunchItem1", "../", "l"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"]
       ],
       "Dinner" : [
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"]
+        ["DinnerItem1", "../", "D1"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"]
       ],
       "Dessert": [
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"],
-        ["Name", "Path", "Description"]
+        ["DessertItem1", "../", "D2"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"],
+        ["Name", "../", "Description"]
       ]
   }
 }

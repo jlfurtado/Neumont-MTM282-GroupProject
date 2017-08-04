@@ -3,3 +3,9 @@ extends layout
 block content
   h2=title
   p ONE THIRD OF THE MENU ITEMS
+  ul(class='menu')
+    for item in config.menu.Lunch
+      a(href=item[1])
+        li
+          span(class='menu-item') #{item[0]}
+          span(class='menu-desc') #{item[2]}
