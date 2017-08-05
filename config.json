@@ -22,32 +22,32 @@
   ],
   "menu":{
       "Breakfast" : [
-        ["BreakfastItem1", "basdf", "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Triangle-Black-Baseball-Strapback-Hat-_266664-front.jpg"],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""]
+        ["BreakfastItem1", "Some really fancy description about this really interesting food item", "$3.00", "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Triangle-Black-Baseball-Strapback-Hat-_266664-front.jpg"],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""]
       ],
     "Lunch" : [
-        ["LunchItem1", "l", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""]
+        ["LunchItem1", "l", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""]
       ],
       "Dinner" : [
-        ["DinnerItem1", "D1", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""]
+        ["DinnerItem1", "D1", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""]
       ],
       "Dessert": [
-        ["DessertItem1", "D2", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""],
-        ["Name", "Description", ""]
+        ["DessertItem1", "D2", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""],
+        ["Name", "Description", "$3.00", ""]
       ]
   }
 }
