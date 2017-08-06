@@ -11,14 +11,14 @@ app.use(express.static(path.join(__dirname + '/public')));
 
 app.get('/', function(req, res) {
     res.render('index', {
-        title: 'website',
+        title: config["pageNames"]["/"],
         config: config
     });
 });
 
 app.get('/:page', function(req, res) {
     res.render(req.params.page, {
-        title: req.params.page,
+        title: config["pageNames"]["/" + req.params.page],
         config: config
     });
 });

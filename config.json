@@ -1,4 +1,12 @@
 {
+  "pageNames": {
+    "/about-us": "About Us",
+    "/directions": "Locations",
+    "/dinner": "Dinner",
+    "/lunch": "Lunch",
+    "/breakfast": "Breakfast",
+    "/": "Home"
+  },
   "nav": [
     ["Home", "/"],
     ["Breakfast", "/breakfast"],
@@ -8,7 +16,7 @@
     ["About Us", "/about-us"]
   ],
   "quotes": [
-    "Bad Buns on Puns",
+    "Bad Puns on Buns",
     "The Cheesiest Burger Puns in Town",
     "Burger of Much Pun",
     "Don't be Chicken, Try the (Some Burger With Chicken in it Here)",
