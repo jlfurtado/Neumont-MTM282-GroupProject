@@ -112,6 +112,13 @@ nav#header-nav ul a:hover {
 #body {
     margin: 20px;
     padding-bottom: 50%;
+    text-align: center;
+
+}
+
+#quote-div {
+    background: #f7f7f7;
+    padding: 5px;
 }
 
 #quote {
@@ -119,15 +126,17 @@ nav#header-nav ul a:hover {
     /*font-family: 'Architects Daughter', cursive;*/
     font-family: 'Dancing Script', cursive;
     font-size: 2.4em;
+
+    padding: 10px;
     animation: comeIn 1.8s;
     text-align: center;
     cursor: default;
     user-select: none;
 }
 
-h2 {
-    margin: 10px 20px 20px 10px;
+#content {
 }
+
 p {
     margin: 10px;
 }
@@ -150,6 +159,8 @@ p {
     padding: 20px;
     cursor: default;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-card:hover {
@@ -158,9 +169,11 @@ p {
 }
 
 .menu-card-item {
+    /*align-self: center;*/
     font-size: 1.6em;
     font-weight: 700;
     text-align: center;
+    max-height: 20px;
     margin: 20px;
 }
 
@@ -178,7 +191,19 @@ p {
     font-size: 1.2em;
     margin: 5px 5px 0px 5px;
     padding: 10px;
+    height: 150px;
+    vertical-align: center;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-card-desc-text {
+    max-width: 300px;
+    vertical-align: center;
+    align-self: center;
+    margin: auto;
 }
 
 .menu-card-price {
