@@ -132,16 +132,23 @@ p {
     margin: 10px;
 }
 
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vw;
+    max-height: 600px;
+}
+
 .menu-card {
+    flex-grow: 1;
     background-color: #fafafa;
     transition: box-shadow 0.8s;
     box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     min-width: 250px;
     max-width: 300px;
-    display: inline-block;
     margin: 10px;
-    text-align: center;
     padding: 5px;
     cursor: default;
 }

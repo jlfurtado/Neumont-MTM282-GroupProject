@@ -3,9 +3,10 @@ extends layout
 block content
   h2=title
   p ONE THIRD OF THE MENU ITEMS
-  for item in config.menu.Breakfast
-    div(class='menu-card')
-      img(src=item[3] class='menu-card-img')
-      div(class='menu-card-item') #{item[0]}
-      div(class ='menu-card-desc') #{item[1]}
-      div(class='menu-card-price') #{item[2]}
+  div(class='menu-container')
+    for item in config.menu.Breakfast
+      div(class='menu-card')
+        img(src=item[3] class='menu-card-img')
+        div(class='menu-card-item') #{item[0]}
+        div(class ='menu-card-desc') #{item[1]}
+        div(class='menu-card-price') #{item[2]}
