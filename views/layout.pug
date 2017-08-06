@@ -12,10 +12,11 @@ html
             for item in config.nav
               a(href=item[1])
                 li #{item[0]}
-    article(id="body")
-      - var v = Math.floor(Math.random() * config.quotes.length);
+    - var v = Math.floor(Math.random() * config.quotes.length);
+    div(id='quote-div')
       h2(id="quote")=config.quotes[v]
         sup TM
+    article(id="body")
       div(id='content')
         block content
     footer
