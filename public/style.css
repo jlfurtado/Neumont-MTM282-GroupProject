@@ -135,9 +135,7 @@ p {
 .menu-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: 100vw;
-    max-height: 600px;
+    flex-direction: row;
 }
 
 .menu-card {
@@ -147,10 +145,11 @@ p {
     box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     min-width: 250px;
-    max-width: 300px;
+    /*max-width: 300px;*/
     margin: 10px;
-    padding: 5px;
+    padding: 20px;
     cursor: default;
+    text-align: center;
 }
 
 .menu-card:hover {
@@ -162,27 +161,31 @@ p {
     font-size: 1.6em;
     font-weight: 700;
     text-align: center;
-    height: 5%;
     margin: 20px;
 }
 
 .menu-card-img {
     width: 100%;
+    max-width: 300px;
+    text-align: center;
     margin: auto;
 }
 
 .menu-card-desc {
     background-color: #dbdbdb;
-    min-height: 10%;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     font-size: 1.2em;
+    margin: 5px 5px 0px 5px;
     padding: 10px;
+    text-align: center;
 }
 
 .menu-card-price {
     background-color: #e2e2e2;
     padding: 5px;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
     font-size: 1.1em;
     font-weight: 600;
     border-bottom-left-radius: 4px;
@@ -273,4 +276,8 @@ footer a:visited {
 
 footer a:hover {
     border-bottom: 2px solid #8f8f8f;
+}
+
+.tab{
+    text-indent: 50px;
 }
