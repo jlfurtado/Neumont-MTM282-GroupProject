@@ -267,3 +267,7 @@ footer a:visited {
 footer a:hover {
     border-bottom: 2px solid #8f8f8f;
 }
+
+.tab{
+    text-indent: 50px;
+}
