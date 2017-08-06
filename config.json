@@ -28,36 +28,27 @@
     "水果人",
     "Try our new sheep burgers, they're baaaaad!"
   ],
-  "menu":{
+    "menu":{
       "Breakfast" : [
-        ["Breakfast Hat", "Anyone ever tell you to put your foot in your mouth? Well hats taste better.", "$16.32", "http://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Triangle-Black-Baseball-Strapback-Hat-_266664-front.jpg"],
-        ["Name", "Description", "$3.00", "http://pcgamehaven.com/wp-content/uploads/2015/08/best-gaming-mouse-300x224.png"],
-        ["Name", "Description", "$3.00", "http://www.ikea.com/PIAimages/0385322_PE558444_S5.JPG"],
-        ["Name", "Description", "$3.00", "http://assets.academy.com/mgen/02/10604502.jpg"],
-        ["Name", "A really descriptive summary about an editable product, described in extreme detail to give the reader a sense of deliciousness", "$3.00", "http://www.ikea.com/PIAimages/0445780_PE596064_S5.JPG"],
-        ["Name", "Description", "$3.00", "http://gmauthority.com/blog/wp-content/uploads/2013/05/GM-4.3L-V6-EcoTec3-LV3-Engine-1.jpeg"],
-        ["Name", "Description", "$3.00", "https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-adult-landing-hero.ashx"]
+        ["Breakfast Burger 1", "We promise, this burger is eggcelent! It comes with BACON!", "$16.32", "images/breakfast_burg1.jpeg"],
+        ["Donut Burger", "Donut make you hungry? Enjoy this with a cup of coffee!", "$4.12", "images/donut_burger.jpg"],
+        ["Croissant Burger", "Cross your aunts and hope to eat another! French kiss this burger into your stomach!", "$3.33", "images/croissant_burger.png"],
+        ["Muffin Burger", "I've got muffin on this one. My jokes have gone flat.", "$5.55", "images/muffin_burger.png"],
+        ["Party Burgers", "These burgers are ready to party! And your guests will be too if you order these!", "$56.65", "images/party_burgers.jpg"]
       ],
     "Lunch" : [
         ["Sushi Burger", "Something smells fishy about this one, but I just can't figure out what.", "$999.99", "images/Sushi-Burger.png"],
         ["Ramen Burger", "Poor college student? Recently fired? Try our new budget burger! Now with ramen noodles! It tastes terrible, but its cheap. Thats just my two cents!", "$0.02", "images/ramen_burger.png"],
         ["Earth Burger", "Celebrating earth day? Cosplaying as an alien bent on world domination? We've got the perfect lunch item for you!", "$1,000,000,000.00", "images/world_burger.png"],
-        ["Name", "Description", "$3.00", ""],
-        ["Name", "Description", "$3.00", ""]
+        ["Grilled Cheese Burger", "This burger comes with the cheesiest pun, grilled to perfection.", "$69.96", "images/grilled_cheeseburger.jpg"],
+        ["Veggie Burger", "Lettuce discuss this burger on the onion. Tomato tomato.", "$43.21", "images/veggie_burger.jpg"]
       ],
       "Dinner" : [
-        ["Avacodo Burger", "TODO PUNSCRIPTION HERE", "$4.20", "images/avacodo_burger.png"],
+        ["Avacodo Burger", "No, Sam I Am, I do not like green buns and ham.", "$4.20", "images/avacodo_burger.png"],
         ["Chicken Burger", "Don't be chicken, try our new Chick Filet burger today!", "$6.90", "images/chicken-burger.png"],
-        ["Mutant Burgers", "These burgers may or may not have quantum entangled their way into a vat of nuclear waste. 17% chance of giving super-powers upon consuption.", "$42.00", "images/mutant_burgers.png"],
-        ["Name", "Description", "$3.00", ""],
-        ["Name", "Description", "$3.00", ""]
-      ],
-      "Dessert": [
-        ["DessertItem1", "D2", "$3.00", ""],
-        ["Name", "Description", "$3.00", ""],
-        ["Name", "Description", "$3.00", ""],
-        ["Name", "Description", "$3.00", ""],
-        ["Name", "Description", "$3.00", ""]
+        ["Mutant Burger", "These burgers may or may not have quantum entangled their way into a vat of nuclear waste. 17% chance of giving super-powers upon consuption.", "$42.00", "images/mutant_burgers.png"],
+        ["Hypno Burger", "You are getting very hungry... You want to buy all of our food...", "$1.11", "images/hypno_burger.jpg"],
+        ["Cake Burger", "Straight from the Sahara Dessert menu! Tastes sweet!", "$1.00", "images/cake_burger.jpg"]
       ]
   }
 }
